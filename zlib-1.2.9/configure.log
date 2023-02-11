@@ -1,0 +1,96 @@
+--------------------
+./configure
+Sat Feb 11 05:57:17 UTC 2023
+Checking for gcc...
+=== ztest19194.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest19194.c
+./configure: line 182: gcc: command not found
+... using cc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest19194.c ===
+int foo() { return 0; }
+===
+cc -c -O ztest19194.c
+./configure: line 370: cc: command not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure
+Sat Feb 11 06:03:29 UTC 2023
+Checking for gcc...
+=== ztest22593.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest22593.c
+./configure: line 182: gcc: command not found
+... using cc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest22593.c ===
+int foo() { return 0; }
+===
+cc -c -O ztest22593.c
+./configure: line 370: cc: command not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/home/ec2-user/Object-Detection-YOLO/zlib-1.2.9
+Sat Feb 11 06:05:34 UTC 2023
+Checking for gcc...
+=== ztest23755.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest23755.c
+./configure: line 182: gcc: command not found
+... using cc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest23755.c ===
+int foo() { return 0; }
+===
+cc -c -O ztest23755.c
+./configure: line 370: cc: command not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure
+Sat Feb 11 06:10:11 UTC 2023
+Checking for gcc...
+=== ztest26372.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest26372.c
+./configure: line 182: gcc: command not found
+... using cc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest26372.c ===
+int foo() { return 0; }
+===
+cc -c -O ztest26372.c
+./configure: line 370: cc: command not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
