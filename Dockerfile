@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN apt  install -y libgl1-mesa-glx
+RUN apt-get  install -y libgl1-mesa-glx
 
 COPY requirements.txt ./
 
