@@ -1,7 +1,5 @@
 FROM python:3
 
-RUN yum install -y libgl1-mesa-glx
-
 COPY requirements.txt ./
 
 RUN pip3 install -r requirements.txt
