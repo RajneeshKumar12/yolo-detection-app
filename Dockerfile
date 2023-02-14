@@ -1,10 +1,6 @@
 FROM python:3
 
-RUN apt-get upgrade
-
-RUN sudo apt-get install -f
-
-RUN apt-get install -y libgl1-mesa-glx
+RUN yum install -y libgl1-mesa-glx
 
 COPY requirements.txt ./
 
