@@ -2,4 +2,3 @@ numpy
 flask
 pillow
 OpenCV-python
-libglapi-mesa-lts-saucy:i386
