@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN sudo apt-get update
+RUN sudo apt-get upgrade
 
 RUN apt-get  install -y libgl1-mesa-glx
 
