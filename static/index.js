@@ -7,7 +7,7 @@ window.onload = () => {
 			let formData = new FormData();
 			formData.append('image' , input.files[0]);
 			$.ajax({
-				url: "http://100.25.203.70:5000/detectObject", // fix this to your liking
+				url: "/detectObject", // fix this to your liking
 				type:"POST",
 				data: formData,
 				cache: false,
