@@ -1,5 +1,6 @@
 FROM python:3
 
+RUN wget https://pjreddie.com/media/files/yolov3.weights
 
 
 RUN pip3 install wheel setuptools pip --upgrade  
