@@ -51,4 +51,4 @@ def after_request(response):
 
 
 if __name__ == '__main__':
-    app.run(host='54.152.133.29',port=5000)
+    app.run(host='0.0.0.0',port=5000)
